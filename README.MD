@@ -36,7 +36,7 @@ Bem-vindo ao repositório do meu portfólio de projetos no GitHub. Aqui você en
 ## 📬 Contato
 
 - **GitHub:** [github.com/em-rezende](https://github.com/em-rezende)
-- **Site:** [https://em-rezende.github.io/Ark-Z-Arquitetura.github.io/](https://em-rezende.github.io/Ark-Z-Arquitetura.github.io/)
+- **Site:** [https://em-rezende.github.io/](https://em-rezende.github.io/)
 - **Email:** emrezende@gmail.com
 
 ---
