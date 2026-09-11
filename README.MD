@@ -5,7 +5,7 @@
 Bem-vindo ao repositório do meu portfólio de projetos no GitHub. Aqui você encontra ferramentas desenvolvidas para automatizar e otimizar fluxos de trabalho em arquitetura, engenharia e geotecnologia.
 
 ### 🔗 Acesse a página completa do portfólio:
-**[https://em-rezende.github.io/Ark-Z-Arquitetura.github.io/](https://em-rezende.github.io/Ark-Z-Arquitetura.github.io/)**
+**[https://em-rezende.github.io/](https://em-rezende.github.io/)**
 
 ---
 
