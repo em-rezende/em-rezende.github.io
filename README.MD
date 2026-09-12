@@ -19,6 +19,7 @@ Bem-vindo ao repositório do meu portfólio de projetos no GitHub. Aqui você en
 | **[Ark-Z Análise Solar](https://github.com/em-rezende/Ark-Z-Analise-Solar-SketchUp)** | Ruby | Suíte para simulação e documentação de análise solar no SketchUp 2025+. |
 | **[ArkZLineLabel-Autocad](https://github.com/em-rezende/ArkZLineLabel-Autocad)** | AutoLISP | Rotulagem, tabelas UTM e georreferenciamento para AutoCAD/Civil 3D. |
 | **[Geometry Exporter](https://github.com/em-rezende/qgis-geometry-exporter-plugin)** | Python | Exibe e exporta geometrias em WKT, EWKT, GeoJSON, GML, KML, GeoHash, GeoPackage e Shapefile, com conversões ad hoc e transformação de SRC. |
+| **[ONR Land Registry Map Exporter](https://github.com/em-rezende/qgis-registro-onr-plugin)** | Python | Vincula a base de dados do cartório ao QGIS e exporta SHP/GeoPackage no padrão da Mapa ONR, com numeração de matrícula, área geodésica em hectares, CNS, proprietário e interface multilíngue (PT/EN/ES). |
 
 ---
 

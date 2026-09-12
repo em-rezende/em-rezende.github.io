@@ -416,7 +416,7 @@
         <!-- STATS -->
         <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; background: var(--gray-100); padding: 1rem 2rem; border-radius: var(--border-radius-full); justify-content: center;">
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">7</div>
+                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">8</div>
                 <div style="font-size: 0.8rem; color: var(--gray-600); text-transform: uppercase;">Projetos</div>
             </div>
             <div style="text-align: center;">
@@ -557,6 +557,27 @@
                 </div>
             </div>
 
+            <!-- ONR Land Registry Map Exporter -->
+            <div class="card">
+                <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%23167d8f'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>Registro ONR</text></svg>" alt="ONR Land Registry Map Exporter QGIS" onclick="openLightbox(this)">
+                <div class="card-content">
+                    <div class="card-title">ONR Land Registry Map Exporter</div>
+                    <div class="card-subtitle">Python · Plugin QGIS 3.44 – 4.x</div>
+                    <div class="card-text">
+                        Vincula a base de dados do cartório ao QGIS e exporta SHP/GeoPackage no padrão da Mapa ONR.
+                        Vinculação da matrícula às feições, seleção interativa com destaque no mapa e zoom automático,
+                        cálculo geodésico de área em hectares, consulta opcional ao banco MySQL (CNS, proprietário e
+                        área registrada) e interface multilíngue (PT/EN/ES).
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">Python</span>
+                        <span class="badge badge-primary">QGIS</span>
+                        <span class="badge badge-accent">Registro de Imóveis</span>
+                        <a href="https://github.com/em-rezende/qgis-registro-onr-plugin" class="card-link" target="_blank">🔗 Ver repositório</a>
+                    </div>
+                </div>
+            </div>
+
             <!-- Projeto extra (placeholder para futuros) -->
             <div class="card">
                 <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%23b0c4de'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>Em breve</text></svg>" alt="Próximo projeto" onclick="openLightbox(this)">
@@ -587,6 +608,8 @@
             <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">QGIS</span>
             <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Civil 3D</span>
             <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Georreferenciamento</span>
+            <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Registro de Imóveis</span>
+            <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">GeoPackage</span>
         </div>
 
         <!-- FOOTER -->
@@ -609,7 +632,7 @@
         <hr>
         <div class="flex-between">
             <span style="color: var(--gray-600);">© ARK-Z ARQUITETURA — Portfólio de Projetos</span>
-            <span class="badge badge-primary">versão 1.0</span>
+            <span class="badge badge-primary">versão 1.1</span>
         </div>
     </div>
 
