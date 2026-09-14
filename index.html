@@ -416,7 +416,7 @@
         <!-- STATS -->
         <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; background: var(--gray-100); padding: 1rem 2rem; border-radius: var(--border-radius-full); justify-content: center;">
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">9</div>
+                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">11</div>
                 <div style="font-size: 0.8rem; color: var(--gray-600); text-transform: uppercase;">Projetos</div>
             </div>
             <div style="text-align: center;">
@@ -424,7 +424,7 @@
                 <div style="font-size: 0.8rem; color: var(--gray-600); text-transform: uppercase;">Ativo desde</div>
             </div>
             <div style="text-align: center;">
-                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">4</div>
+                <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">5</div>
                 <div style="font-size: 0.8rem; color: var(--gray-600); text-transform: uppercase;">Linguagens</div>
             </div>
             <div style="text-align: center;">
@@ -599,6 +599,72 @@
                 </div>
             </div>
 
+            <!-- RadioWebHTML -->
+            <div class="card">
+                <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%23c0392b'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>Radio Web</text></svg>" alt="RadioWebHTML - Player de rádios web" onclick="openLightbox(this)">
+                <div class="card-content">
+                    <div class="card-title">RadioWebHTML</div>
+                    <div class="card-subtitle">HTML · CSS · JavaScript · PWA</div>
+                    <div class="card-text">
+                        Player de rádios web 100% estático (sem backend) e instalável como aplicativo no celular ou
+                        no desktop via PWA. Lista de emissoras personalizável, busca por nome, favoritos, importação
+                        e exportação da lista em JSON, navegação entre rádio anterior/próxima e visualizador de
+                        espectro de áudio em tempo real.
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">HTML/CSS</span>
+                        <span class="badge badge-success">PWA</span>
+                        <span class="badge badge-accent">Web Audio</span>
+                        <a href="https://em-rezende.github.io/RadioWebHTML/" class="card-link" target="_blank">🌐 Demo online</a>
+                        <a href="https://github.com/em-rezende/RadioWebHTML" class="card-link" target="_blank">🔗 Ver repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESP8266 LED Matrix Clock -->
+            <div class="card">
+                <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%2334495e'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>ESP8266 Clock</text></svg>" alt="ESP8266 LED Matrix Clock com MAX7219" onclick="openLightbox(this)">
+                <div class="card-content">
+                    <div class="card-title">ESP8266 LED Matrix Clock</div>
+                    <div class="card-subtitle">C++ · ESP8266 · Matriz LED MAX7219 8×32</div>
+                    <div class="card-text">
+                        Relógio inteligente em ESP8266 com matriz LED 8×32: hora sincronizada por NTP (12h/24h, com
+                        animação nos dígitos), clima via OpenWeatherMap (temperatura, umidade, pressão e vento),
+                        controle automático de brilho por faixa horária e portal WiFi em modo AP/STA com ajustes
+                        salvos em EEPROM. Inclui monitor web que simula a matriz em tempo real e gravação OTA.
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">C++</span>
+                        <span class="badge badge-secondary">ESP8266</span>
+                        <span class="badge badge-accent">MAX7219 8×32</span>
+                        <a href="https://github.com/em-rezende/ESP8266_Clock_Max7219_NTP_OpenWeather_AP_STA_HHMMss_Small" class="card-link" target="_blank">🔗 Ver repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editor de Fontes Bitmap PRO -->
+            <div class="card">
+                <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%2316a085'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>Editor Bitmap</text></svg>" alt="Editor de Fontes Bitmap PRO" onclick="openLightbox(this)">
+                <div class="card-content">
+                    <div class="card-title">Editor de Fontes Bitmap PRO</div>
+                    <div class="card-subtitle">HTML · CSS · JavaScript · Sem instalação</div>
+                    <div class="card-text">
+                        Editor web offline para criar e editar fontes bitmap usadas em sistemas embarcados (Arduino,
+                        ESP32, STM32, LCD Nokia 5110, OLED SSD1306). Desenho por clique e arraste, gestão de múltiplas
+                        fontes no mesmo arquivo, limpeza, inversão de cores, deslocamento vertical e espelhamento. O
+                        diferencial é a Expansão de Topo, que aumenta a altura da fonte preservando a linha de base,
+                        com exportação de cabeçalhos .h em PROGMEM para o Arduino IDE ou PlatformIO.
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">HTML/CSS</span>
+                        <span class="badge badge-success">PROGMEM</span>
+                        <span class="badge badge-accent">Embarcados</span>
+                        <a href="https://em-rezende.github.io/Editor_de_Fontes_Bitmap_Pro/Editor_de_Fontes_Bitmap_Pro.html" class="card-link" target="_blank">🌐 Demo online</a>
+                        <a href="https://github.com/em-rezende/Editor_de_Fontes_Bitmap_Pro" class="card-link" target="_blank">🔗 Ver repositório</a>
+                    </div>
+                </div>
+            </div>
+
             <!-- Projeto extra (placeholder para futuros) -->
             <div class="card">
                 <img class="card-image" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><rect width='300' height='160' fill='%23b0c4de'/><text x='20' y='90' fill='white' font-size='18' font-family='Inter'>Em breve</text></svg>" alt="Próximo projeto" onclick="openLightbox(this)">
@@ -624,9 +690,11 @@
             <span class="badge badge-primary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">AutoLISP</span>
             <span class="badge badge-primary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Ruby</span>
             <span class="badge badge-primary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">HTML/CSS</span>
+            <span class="badge badge-primary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">C++</span>
             <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">AutoCAD</span>
             <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">SketchUp</span>
             <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">QGIS</span>
+            <span class="badge badge-secondary" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">ESP8266</span>
             <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Civil 3D</span>
             <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Georreferenciamento</span>
             <span class="badge badge-accent" style="font-size: 0.9rem; padding: 0.4rem 1.2rem;">Registro de Imóveis</span>
